@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>apa hayooo</title>
+  
+  <link rel="stylesheet" href="./stylewan.css">
+  <style>
+    /* Add your custom styles here */
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      padding: 0;
+    opacity: 1;
+    transition-duration: 0.7s;
+    transition-property: opacity;
+    
+    }
+    body.fade {
+    opacity: 0;
+    }    
+    .header {
+      background-color: #ffcc00;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .header h1 {
+      color: #333333;
+      margin: 0;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    
+    .content {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    
+    .bubbly-button {
+      display: inline-block;
+      background-color: #ff5500;
+      color: #ffffff;
+      font-size: 24px;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .bubbly-button:hover {
+      background-color: #ff7700;
+    }
+    
+    .footer {
+      background-color: #ffcc00;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+    <script>
+    document.body.classList.add('fade');
+  </script>
+  <!-- ... -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      window.setTimeout(function() {
+        document.body.classList.remove('fade');
+      }, 230);
+    });
+  </script>
+  <body>
+  <div class="header">
+    <h1>HALO MIH :D</h1>
+  </div>
+
+  <div class="container">
+    <div class="content">
+      <h2>Coba tebak apa ni?</h2>
+      <p>Klik coba tombol di bawah</p>
+      <button href="/Woah/" class="bubbly-button">Penceet</button>
+      <script  src="./scriptwan.js"></script>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; Nicky Raphael</p>
+  </div>
+</body>
+</html>
